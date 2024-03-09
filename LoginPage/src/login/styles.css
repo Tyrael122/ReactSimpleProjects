@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginPage {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.loginPageColumn {
+  margin: 30px 15px;
+  min-height: 375px;
+  min-width: 33%;
+  max-width: 400px;
+}
+
+.header {
+  width: 50%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.slogan {
+  font-size: 25px;
+  text-align: center;
+}
+
+.loginForm {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  min-width: 100%;
+  min-height: 300px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.formInputLabel {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.formInputAction {
+  font-size: 12px;
+}
+
+.textInput {
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.registerLink {
+  white-space: nowrap;
+}
+
+.loginButton {
+  font-size: 18px;
+  background-color: #3f48cc;
+  color: white;
+  padding: 12px 23px;
+  margin-left: 30px;
+  border-width: 0px;
+  border-radius: 12px;
+}
+
+.center-horizontally {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-top: 30px;
+}
